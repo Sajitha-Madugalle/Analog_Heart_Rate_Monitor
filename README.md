@@ -21,6 +21,6 @@ Our Heart Rate Monitor offers the following features:
 
 ## Contributors
 - [Sajitha Madugalle](https://github.com/Sajitha-Madugalle)
-- Devnith Wijesinghe
+- [Devnith Wijesinghe](https://github.com/devnithw)
 - Tashin Kavishan
 - Charles Jhone Peter
