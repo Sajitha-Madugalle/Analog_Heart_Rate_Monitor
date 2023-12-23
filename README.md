@@ -2,15 +2,18 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Features](#features)
+- [Functionality](#Functionality)
 - [Contributors](#contributors)
 
 ## Introduction
-Welcome to the Heart Rate Monitor project by Team Resonova, a group project undertaken as part of the EN2091 - Laboratory Practice and Projects module at the University of Moratuwa. This project was developed by four undergraduate students majoring in Biomedical Engineering, with the goal of creating a reliable and user-friendly heart rate monitoring system.
+An electrocardiogram (ECG) is a simple diagnosis technique employed to assess the heart’s electrical activity by detecting electrical signals generated during each heartbeat through electrodes fixed to the skin. The voltage difference between the right arm and left arm is magnified, incorporating a feedback mechanism through the right leg. ECG leads measure these voltages from the right arm, left arm, and right leg. The voltage signal’s amplitude ranges from 0.001 mV to 100 mV (typical value is 1 mV), with a frequency spanning from 0.01 Hz to 250 Hz. Amplifying this signal proves challenging due to the small amplitude of the raw ECG signals and subjection to corruption from various sources such as noise, power line interference, RF inteference, noise from electrode contact, stray capacitance, and bio signal artifacts induced by movements of the subject. In our project we propse and implement a analog circuit to amplify the above eletrical signal and to perform filtering to reduce noise. We make use of only basic analog electrical devices such as resistors, capacitors and OpAmps in our design.
 
-Heart rate monitoring is crucial in various healthcare and fitness applications. Our Heart Rate Monitor is designed to accurately measure and display heart rates in real-time, making it a valuable tool for both medical professionals and individuals concerned about their health and fitness.
+The below block diagram illustrates the stages of signal conditioning employed in our design.
+<img src="ECG_circuit_diagram.png" alt="ECG circuit diagram">
 
-## Features
+We implement the design of our circuit on a single PCB using the Altium PCB design software. All circuits were simulated using LTSpice and MultiSim prior to implementation.
+
+## Functionality
 Our Heart Rate Monitor offers the following features:
 - Real-time heart rate measurement.
 - User-friendly interface for easy operation.
