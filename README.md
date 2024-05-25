@@ -2,7 +2,9 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Functionality](#Functionality)
+- [Functionality](#functionality)
+- [Printed Circuit Board](#printed-circuit-board)
+- [Enclosure Design](#enclosure-design)
 - [Contributors](#contributors)
 
 ## Introduction
@@ -21,6 +23,18 @@ Our Heart Rate Monitor offers the following features:
 - Adjustable measurement settings to cater to various scenarios.
 - Data logging and export capabilities for further analysis.
 - Detailed documentation for developers and users.
+  
+## Printed Circuit Board
+The PCB was deisgned using Altium Designer PCB Software.In our design approach, we employed 4 layersto minimize interference. This consists of two signal layers, the ground layer and the power layer. The PCB was designed in a way that the processor (ESP32 Dev Module) is also mounted on the same PCB. The PCB and display wiring is also included within the PCB routing.
+After the fabrication, the relevant components are soldered by hand to the PCB. For convenience of replacement, we soldered IC bases and mounted the ICs onto them. Additionally, we used JST cables and pin headers for easy replacement.
+
+<img src="Media/real PCB.png" alt="Printed Circuit Board Design" width="300">
+
+## Enclosure Design
+The SolidWorks CAD software was utilized to design the enclosure. This enclosure has a removable top lid, facilitating the fixation and replacement of components as needed. To prevent damage to the components, there are strategically placed ventilation and airflow, allowing heat to dissipate to the outside. The top lid houses the display and knobs for filter tuning. A power on/off switch is positioned on the side. The enclosure is equipped with holes for power adapter input and 3.5mm jack connections.
+
+<img src="Media/real.png" alt="3D printed Enclouser" width="300">
+
 
 ## Contributors
 - [Sajitha Madugalle](https://github.com/Sajitha-Madugalle)
